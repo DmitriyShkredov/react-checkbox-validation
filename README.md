@@ -2,7 +2,9 @@
 
 #### `Demo:` https://dmitriyshkredov.github.io/react-checkbox-validation/
 
-#### `Телеграм:` [@tipichnyj_web_razrabotchik](https://t.me/tipichnyj_web_razrabotchik/)
+#### `Телеграм:` [@tipichnyj_web_razrabotchik](https://t.me/tipichnyj_web_razrabotchik/44)
+
+#### `Видео:` [YouTube](https://youtu.be/yGWVpauzgf8)
 
 ---
 
