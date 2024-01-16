@@ -10,5 +10,5 @@ const mailingsCheckbox = yup
 
 export const schemaSignUp = yup.object({
   rules: rulesCheckbox,
-  mailings: mailingsCheckbox,
+  // mailings: mailingsCheckbox,
 });

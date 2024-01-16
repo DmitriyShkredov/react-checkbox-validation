@@ -18,12 +18,21 @@
   border-radius: 3px;
 }
 
+.checkbox-element:checked {
+  background-color: #2b60d2;
+}
+
 .checkbox-element.error {
   border-color: #ff0000;
 }
 
-.checkbox-element:checked {
-  background-color: #2b60d2;
+.checkbox-wrapper span {
+  position: absolute;
+  top: 100%;
+  left: 26px;
+  font-size: 14px;
+  line-height: 1;
+  color: #ff0000;
 }
 
 .checkbox-element:checked::before {
@@ -50,13 +59,4 @@
 .checkbox-wrapper a {
   color: #2b60d2;
   text-decoration: underline;
-}
-
-span {
-  position: absolute;
-  top: 100%;
-  left: 26px;
-  font-size: 14px;
-  line-height: 1;
-  color: #ff0000;
 }

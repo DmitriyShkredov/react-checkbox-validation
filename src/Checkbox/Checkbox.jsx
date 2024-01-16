@@ -7,15 +7,17 @@ export const Checkbox = ({ name, children }) => {
     register,
     formState: { errors },
   } = useFormContext();
+  const error = errors[name]?.message;
+
   return (
     <label className="checkbox-wrapper">
       <input
         type="checkbox"
-        className={(errors[name]?.message ? "error " : "") + "checkbox-element"}
+        className={(error ? "error " : "") + "checkbox-element"}
         {...register(name)}
       />
       <p>{children}</p>
-      <span>{errors[name]?.message}</span>
+      <span>{error}</span>
     </label>
   );
 };
